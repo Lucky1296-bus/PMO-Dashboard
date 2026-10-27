@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pmo-tracker-client-side-solution",
+    "id": "a9c43281-a85a-4b0c-bc4b-0b2ed3b1dc58",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PMOTracker description"
+      },
+      "longDescription": {
+        "default": "PMOTracker description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pmo-tracker Feature",
+        "description": "The feature that activates elements of the pmo-tracker solution.",
+        "id": "ac34c6c0-8484-43ed-a856-00d67c7f33d5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pmo-tracker.sppkg"
+  }
+}
